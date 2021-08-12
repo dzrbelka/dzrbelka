@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "socicon";
+  src:url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1489155872.eot");
+  src:url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1489155872.eot?#iefix") format("embedded-opentype"),
+    url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1489155872.woff") format("woff"),
+    url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1489155872.ttf") format("truetype"),
+    url("https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/fonts/1489155872.svg#1489155872") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "socicon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="socicon-"]:before,
+[class*=" socicon-"]:before {
+  font-family: "socicon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.socicon-steam:before {
+  content: "\e037";
+}
+
+.socicon-vkontakte:before {
+  content: "\e071";
+}
+
+.socicon-discord:before {
+  content: "\e00b";
+}
+
+#wf3 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+	margin-left: 0;
+}
+
+#wf3:hover{ 
+	color: rgb(255, 0, 255);
+}
+
+#wf4 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+	margin-left: 11.7%;
+}
+
+#wf4:hover{ 
+	color: rgb(255, 0, 255);
+}
+
+#wf5 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+	margin-left: 11.7%;
+}
+
+#wf5:hover{ 
+	color: rgb(255, 0, 255);
+}

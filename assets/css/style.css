@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'VCR OSD Mono';
+	src: url('../fonts/VCR_OSD_MONO_1.001.ttf');
+}
+
+body {
+margin: 0;
+    padding: 0;
+    font-family: 'VCR OSD Mono', serif!important; 
+	color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+h1 {
+    font-size: 3.2em; 
+    margin: 0.2em;
+    cursor: default;
+}
+
+h5 {
+    font-size: 0.9em; 
+    margin: 0em;
+}
+
+i {margin: 14px;}
+
+a {color: white;text-decoration: none;}
+a:hover {
+    color: rgb(255, 0, 255);
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    align-content: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+#doc_time {
+    cursor: default;
+}
+#doc_time:hover {
+    cursor: default;
+    color: rgb(255, 0, 255);
+}
+
+
+#section__title1 {
+    color: rgb(255, 255, 255);
+}
+
+#section__title1:hover{ 
+	color: rgb(255, 0, 255);
+}
+
+.pbutton {
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.mute-video {
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+.unmute-video {
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+

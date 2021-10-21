@@ -76,10 +76,6 @@
                                  <marquee aligt="center" scrollamount="7" width="540" style="width:335px;"><h5><a href="https://www.twitch.tv/squirrel_xp">Twitch stream</a></h5></marquee>  
                             </div>	
                         </div>
-                        <!--sound-mute button have some bugs now--> 
-                        <!--<div class="pausebutton">
-                            <h2><a class="mute-video">=</a></h2>
-                        </div>-->
                   </div>
                 </div>
               </div>
@@ -93,14 +89,7 @@
     
   </div>
 
-<div id="trailer" class="is_overlay">
-	<video id="bgVideo" width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto">
-        <source src="assets/movies/Bg.mp4">
-        <script>  
-            var video = document.currentScript.parentElement;
-            video.volume = 0.3;
-        </script>
-    </video>
+
 </div>
 	
   <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
@@ -112,7 +101,10 @@
 <script type="text/javascript">
 
 </script>
-
+<div id="video-bg">
+    <video width="auto" height="auto" autoplay="autoplay" muted
+    <source src="assets/movies/bg2.mp4" type="video/mp4">
+    </video>
 <script> 
 document.onkeydown = function(e) { 
     if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 

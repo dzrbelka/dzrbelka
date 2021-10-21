@@ -3,6 +3,7 @@
 <html class="no-js" lang="en">
 
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> ᠌᠌᠌᠌</title>
@@ -10,17 +11,17 @@
   <meta name="keywords" content="">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="icon" href="assets/images/favicon.ico">
+    <link rel='stylesheet' href='assets/css/all.css'>
   <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
   <link rel='stylesheet' href='assets/css/vendor.css'>
   <link rel='stylesheet' href='assets/css/theme_black_blue.css'>
-  <link rel='stylesheet' href='assets/css/custom.css'> 
-  <link rel='stylesheet' href='assets/css/all.css'>
+  <link rel='stylesheet' href='assets/css/custom.css'>
   <link rel='stylesheet' href='assets/css/icons.css'> 
   <link rel='stylesheet' href='assets/css/style.css'>  
-  <link rel='stylesheet' href='assets/css/animation.css'> 
+  <link rel='stylesheet' href='assets/css/animation.css'>
   <link rel='stylesheet' href='assets/css/core.css'>
+  <link rel='stylesheet' href='assets/css/swarm.css'>
   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
   <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
   <!--[if lte IE 9]><!-->
@@ -29,23 +30,22 @@
   <!--<![endif]-->
   <script src="assets/js/title.js"></script>
   <script src="assets/js/mouse.js"></script>
-  <script src="https://apis.google.com/js/platform.js"></script>
 </head>
 
 <body>
   <div class="site-bg">
     <div class="site-bg__img"></div>
-    <div class="site-bg__video"></div>
     <div class="site-bg__overlay"></div>
     <div class="site-bg__effect layer" data-depth="1"></div>
-    <canvas class="site-bg__canvas layer" data-depth="1"></canvas> 
+    <canvas class="site-bg__canvas layer" data-depth="1"></canvas>
+      <div class="site-bg__video"></div>
   </div>
   
   <div class="site-loader">
     <span></span>
     <p>Чё сука?!</p>
   </div>
-  
+</div>
   <div class="site-wrap">
     
     <main class="site-main">
@@ -59,24 +59,31 @@
                 <div class="col-xs-12">
                     <div class="animation-item"
                     data-animation-in="fadeInUp2"
-                    data-animation-in-delay="150"
+                    data-animation-in-delay="250"
                     data-animation-out="fadeOutDown2"
                     data-animation-out-delay="700">                       
                         <div id="center1">                    
                             <div class="inner">
-                                <h5><span id="doc_time">squirrel</span></h5>
-							    <h1 id="section__title"><span class="color">Belka</span></h1>                 
+							    <h1 id="section__title"><span class="color">Squirrel</span></h1>
                                 <h3 id="wf2" style="background: -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-text-stroke: 1px rgb(255, 0, 255);">
                                     <a id="wf3" target="blank" href="https://vk.com/dzr.belka"><i class="socicon-vkontakte"></i></a>
                                     <span></span>
                                     <a id="wf4" target="blank" href="https://steamcommunity.com/id/this_is_squirrel/"><i class="socicon-steam"></i></a>
                                     <span></span>
-                                    <a id="wf5" target="blank" href="https://discord.gg/UVdse38dBM"><i class="socicon-discord"></i></a>
-					           </h3> 
-                                 <marquee aligt="center" scrollamount="7" width="540" style="width:335px;"><h5><a href="https://www.twitch.tv/squirrel_xp">Twitch stream</a></h5></marquee>  
-                            </div>	
+                                    <a id="wf5" target="blank" href="https://discord.gg/Wx7czWbKfN"><i class="socicon-discord"></i></a>
+                                </h3>
+                                 <marquee aligt="center" scrollamount="7" width="540" style="width:335px;"><h5><a href="https://www.twitch.tv/squirrel_xp">Twitch stream</a></h5></marquee>
+
+
+
+                            </div>
                         </div>
-                  </div>
+                        <!-sound-mute button have some bugs now-->
+                        <!--<div class="pausebutton">
+                            <h2><a class="mute-video">=</a></h2>
+                        </div>-->
+
+                    </div>
                 </div>
               </div>
             </div>
@@ -88,24 +95,18 @@
     
     
   </div>
-
-
-</div>
-	
   <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
   <script src='assets/js/vendor/bootstrap.min.js'></script>
   <script src='assets/js/vendor/plugin.js'></script>
   <script src='assets/js/variable.js'></script>
   <script src='assets/js/main.js'></script>
-	<div id="video-bg">
-    <video width="auto" height="auto" autoplay="autoplay" muted
-    <source src="assets/movies/bg.mp4" type="video/mp4">
-    </video>
-	
+    <script src='assets/js/11.js'></script>
+
 </body>
 <script type="text/javascript">
-
 </script>
+
+
 <script> 
 document.onkeydown = function(e) { 
     if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
@@ -124,22 +125,7 @@ document.onmousedown=click
 document.oncontextmenu = new Function("return false;") 
 </script>
 
-<script>
-    $("video").prop(true);
-
-$(".mute-video").click(function () {
-    if ($("video").prop('muted')) {
-        $("video").prop('muted', false);
-        $(this).addClass('unmute-video');
-
-    } else {
-        $("video").prop('muted', true);
-        $(this).removeClass('unmute-video');
-    }
-    console.log($("video").prop('muted'))
-});
 <BODY ondragstart="return false" onselectstart="return false">
-	</script>
 	<script language=JavaScript>
 	<!--
 	var message = "А? иди на хуй";
@@ -150,7 +136,6 @@ $(".mute-video").click(function () {
 			return false;
 		}
 	}
-
 	function clickNS4(e) {
 		if(document.layers || document.getElementById && !document.all) {
 			if(e.which == 2 || e.which == 3) {
@@ -168,4 +153,22 @@ $(".mute-video").click(function () {
 	document.oncontextmenu = new Function("alert(message);return false")
 		// -->
 </script>
+
+
+    <!--<div class="youtube-video-background">
+        <div class="video-box">
+        <iframe src="https://www.youtube.com/embed/S8YQDS9tXcI?&wmode=transparent&autoplay=1&loop=1&controls=0&modestbranding=1&rel=0&autohide=1&showinfo=0&color=white&iv_load_policy=3&theme=light&wmode=transparent&mute=0&playlist=S8YQDS9tXcI" frameborder="0" allow="autoplay"></iframe>
+        </div>
+    </div>-->
+
+    </body>
+<div id="video-bg">
+    <video width="auto" height="auto" autoplay="autoplay" muted
+    <source src="assets/movies/bg.mp4" type="video/mp4">
+    </video>
+	
+
+
+</div>
+</div>
 </html>

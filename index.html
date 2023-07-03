@@ -66,23 +66,21 @@
                             <div class="inner">
 							    <h1 id="section__title"><span class="color">Squirrel</span></h1>
                                 <h3 id="wf2" style="background: -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-text-stroke: 1px rgb(255, 0, 255);">
-                                    <a id="wf3" target="blank" href="https://vk.com/dzr.belka"><i class="socicon-vkontakte"></i></a>
+                                    <a id="wf3" target="blank" href="https://www.twitch.tv/7quirrel"><i class="socicon-twitch"></i></a>
                                     <span></span>
-                                    <a id="wf4" target="blank" href="https://steamcommunity.com/id/this_is_squirrel/"><i class="socicon-steam"></i></a>
+                                    <a id="wf4" target="blank" href="https://www.donationalerts.com/r/7quirrel"><i class="socicon-smugmug"></i></a>
                                     <span></span>
-                                    <a id="wf5" target="blank" href="https://discord.gg/TRusTFVH5Q/"><i class="socicon-discord"></i></a>
+                                    <a id="wf5" target="blank" href="https://t.me/squirrel_cum"><i class="socicon-telegram"></i></a>
                                 </h3>
-                                 <marquee aligt="center" scrollamount="7" width="540" style="width:335px;"><h5><a href="https://www.twitch.tv/squirrel_xp">Twitch stream</a></h5></marquee>
+                                 <marquee aligt="center" scrollamount="7" width="540" style="width:335px;"><h5><a       <!-sound-mute button have some bugs now-->
+                                    <!--<div class="pausebutton">
+                                        <h2><a class="mute-video">=</a></h2>
+                                    </div>-->
+                                    <button onclick="mute(this, 'video-bg')">Включить звук</button></a></h5></marquee>
 
 
 
                             </div>
-                        </div>
-                        <!-sound-mute button have some bugs now-->
-                        <!--<div class="pausebutton">
-                            <h2><a class="mute-video">=</a></h2>
-                        </div>-->
-
                     </div>
                 </div>
               </div>
@@ -157,18 +155,19 @@ document.oncontextmenu = new Function("return false;")
 
     <!--<div class="youtube-video-background">
         <div class="video-box">
-        <iframe src="https://www.youtube.com/embed/S8YQDS9tXcI?&wmode=transparent&autoplay=1&loop=1&controls=0&modestbranding=1&rel=0&autohide=1&showinfo=0&color=white&iv_load_policy=3&theme=light&wmode=transparent&mute=0&playlist=S8YQDS9tXcI" frameborder="0" allow="autoplay"></iframe>
+        <iframe src="https://www.youtube.com/embed/twF8tLIS1aQ?&wmode=transparent&autoplay=1&loop=1&controls=0&modestbranding=1&rel=0&autohide=1&showinfo=0&color=white&iv_load_policy=3&theme=light&wmode=transparent&mute=0&playlist=S8YQDS9tXcI" frameborder="0" allow="autoplay"></iframe>
         </div>
     </div>-->
 
     </body>
-<div id="video-bg">
+	
+<!--<div id="">
     <video width="auto" height="auto" autoplay="autoplay" muted
     <source src="assets/movies/bg.mp4" type="video/mp4">
-    </video>
-	
-
-
+    </video>-->
+ 	 <video id="video-bg" width="100%" height="auto" loop="loop" autoplay="autoplay" muted preload="auto" volume="1">
+   		<source src="assets/movies/bg2.mp4"></source>
+ 	 </video>
 </div>
 </div>
 </html>

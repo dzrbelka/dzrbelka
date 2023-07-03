@@ -1,3 +1,15 @@
+.overlay h1 {
+    text-align:absolute;
+    color:#fff;
+    font-size: 70px;
+    margin-top:auto;
+}
+.overlay h3 {
+    text-align:absolute;
+    color:#fff;
+    font-size: 70px;
+    margin-top:auto;
+}
 video {
     position: fixed;
     top: 50%;

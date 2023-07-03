@@ -6,16 +6,29 @@
   font-style: normal;
   text-transform: initial;
 }
-.socicon::before, [class^="socicon-"]::before, [class*=" socicon-"]::before {
-  display: inline-block;
-  font-family: 'socicon';
+
+[data-icon]:before {
+  font-family: "socicon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
   speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
   line-height: 1;
-  /* Improve font-rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="socicon-"]:before,
+[class*=" socicon-"]:before {
+  font-family: "socicon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -529,4 +542,33 @@
 }
 .socicon-zynga:before {
   content: "\e0a9";
+}
+#wf3 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+	margin-left: 0;
+}
+
+#wf3:hover{ 
+	color: rgb(255, 0, 255);
+}
+
+#wf4 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+	margin-left: 11.7%;
+}
+
+#wf4:hover{ 
+	color: rgb(255, 0, 255);
+}
+
+#wf5 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+	margin-left: 11.7%;
+}
+
+#wf5:hover{ 
+	color: rgb(255, 0, 255);
 }

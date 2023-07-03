@@ -1234,3 +1234,14 @@ var $ = jQuery.noConflict();
 //
 
 })(jQuery);
+
+function mute(btn,elem){
+  var video = document.getElementById(elem);
+  if (video.muted){
+    video.muted = false;
+    btn.innerHTML = "Отключить звук";
+  } else{
+    video.muted = true;
+    btn.innerHTML = "Включить звук";
+  }
+}

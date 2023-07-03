@@ -16,7 +16,7 @@ function loaded() {
 
 var x = 0;
 
-var titleText = [ " - ", " &#92; ", " | ", " / ", " B- ", " B&#92; ", " B| ", " B/ ", " Be- ", " Be&#92; ", " Be| ", " Be/ ", " Bel- ", " Bel&#92; ", " Bel| ", " Bel/ ", " Belk- ", " Belk&#92; ", " Belk| ", " Belk/ ", " Belka- ", " Belka&#92; ", " Belka| ", " Belka/ ", " Belka- ", " Belka&#92; ", " Belka| ", " Belka/ ", " Belka- ", " Belka&#92; ", " Belka| ", " Belka/ ", " Belka- ", " Belka&#92; ", " Belka| ", " Belka/ ", " Belka- ", " Belka&#92; ", " Belka| ", " Belka/ ", " Belka- ", " Belka&#92; ", " Belka| ", " Belka/ ", " Belka ", " Belka ", "Belka", "Belka", "Belka", "Belka", "Belka", "Belka", "Belka", "Belka", "Belka", "Belka", "Belka" ];
+var titleText = [ " - ", " &#92; ", " | ", " / ", " S- ", " S&#92; ", " S| ", " S/ ", " Sq- ", " Sq&#92; ", " Sq| ", " Sq/ ", " Squ- ", " Squ&#92; ", " Squ| ", " Squ/ ", " Squi- ", " Squi&#92; ", " Squi| ", " Squi/ ", " Squir- ", " Squir&#92; ", " Squir| ", " Squir/ ", " Squirr- ", " Squirr&#92; ", " Squirr| ", " Squirr/ ", " Squirre- ", " Squirre&#92; ", " Squirre| ", " Squirre/ ", " Squirrel- ", " Squirrel&#92; ", " Squirrel| ", " Squirrel/ ", " Squirrel- ", " Squirrel&#92; ", " Squirrel| ", " Squirrel/ ", " Squirrel- ", " Squirrel&#92; ", " Squirrel| ", " Squirrel/ ", " Squirrel ", " Squirrel ", "Squirrel", "Squirrel", "Squirrel", "Squirrel", "Squirrel", "Squirrel", "Squirrel", "Squirrel", "Squirrel", "Squirrel", "Squirrel" ];
 
 function loop() {
 

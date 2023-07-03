@@ -59,21 +59,4 @@ a:hover {
 	color: rgb(255, 0, 255);
 }
 
-.pbutton {
-    transform: rotate(90deg);
-    cursor: pointer;
-}
-
-.mute-video {
-    width: 50px;
-    height: 50px;
-    transform: rotate(90deg);
-    cursor: pointer;
-}
-.unmute-video {
-    width: 50px;
-    height: 50px;
-    transform: rotate(90deg);
-    cursor: pointer;
-}
 
